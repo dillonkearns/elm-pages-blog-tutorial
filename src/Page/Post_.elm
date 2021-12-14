@@ -40,10 +40,8 @@ page =
 
 pages : DataSource (List RouteParams)
 pages =
-    DataSource.succeed
-        [ { post = "automate-with-webhooks" }
-        , { post = "hello-world" }
-        ]
+    ContentfulPosts.data
+        |> DataSource.map (List.map (\post -> post.slug |> RouteParams))
 
 
 data : RouteParams -> DataSource Data
