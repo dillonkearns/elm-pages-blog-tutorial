@@ -17,6 +17,7 @@ import Pages.Url
 import Path exposing (Path)
 import Shared
 import View exposing (View)
+import View.LifecycleDiagram
 
 
 request : (Result Http.Error { stargazers_count : Int } -> msg) -> Cmd msg
@@ -135,31 +136,16 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel model static =
-    { title = "Title TODO"
+    { title = "elm-pages lifecycle"
     , body =
-        [ Html.img
-            [ Attr.src "1.svg"
-            , Attr.style "width" "1200px"
-            , Attr.style "margin-left" "-300px"
-            , Attr.style "position" "absolute"
-            ]
-            []
-        , Html.img
-            [ Attr.src "2.svg"
-            , Attr.style "width" "1200px"
-            , Attr.style "margin-left" "-300px"
-            , Attr.style "position" "absolute"
-            , Attr.style "opacity"
-                (case model.response of
-                    Just _ ->
-                        "1"
+        [ View.LifecycleDiagram.view
+            (case model.response of
+                Just _ ->
+                    View.LifecycleDiagram.Show
 
-                    Nothing ->
-                        "0"
-                )
-            , Attr.style "transition" "opacity 1s ease-in-out"
-            ]
-            []
+                Nothing ->
+                    View.LifecycleDiagram.Hide
+            )
         , Html.pre []
             [ Html.code []
                 [ case model.response of
