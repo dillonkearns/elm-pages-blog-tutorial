@@ -1,0 +1,115 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown-light.min.css");
+
+:root {
+  /* --accent: rgb(115, 214, 139); */
+  /* --accent: rgb(5, 223, 60); */
+  --accent: rgb(57 144 233);
+  --primary: rgb(60 60 60);
+  --secondary: rgb(144 145 145);
+  --link: rgb(9, 105, 218);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+main {
+  padding-top: 3rem;
+  max-width: 600px;
+  margin: 10px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.blog-index {
+  margin-top: 100px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article img {
+  height: 160px;
+  width: 250px;
+}
+
+article a {
+  font-size: 16px;
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  /* border: solid 2px red; */
+
+  /* box-shadow: 0 -0.4rem 0.9rem 0.2rem #00000080; */
+}
+
+article .published {
+  padding-top: 15px;
+}
+article .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+article a > div {
+  padding: 10px;
+}
+
+article a h2 {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+a:hover {
+  color: var(--accent) !important;
+}
+
+article a:hover {
+  color: var(--accent);
+}
+#logo img {
+  height: 40px;
+}
+
+header {
+  margin: 0;
+  overflow-x: hidden;
+  box-shadow: 1px;
+  /* background-color: gray; */
+  width: 100vw;
+  /* box-shadow: 0 -0.4rem 0.9rem 0.2rem #00000080; */
+  box-shadow: 0 -0.4rem 0.9rem 0.2rem #00000080;
+}
+
+nav {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* body > div[style]:not(#elm-debugger-overlay),
+body > #elm-debugger-overlay > div[style]:nth-child(2) {
+  background-color: transparent !important;
+  color: var(--text-weaker) !important;
+} */

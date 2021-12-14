@@ -3,6 +3,7 @@ module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
 import Browser.Navigation
 import DataSource
 import Html exposing (Html)
+import Html.Attributes as Attr
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
@@ -95,6 +96,31 @@ view :
     -> View msg
     -> { body : Html msg, title : String }
 view sharedData page model toMsg pageView =
-    { body = Html.div [] pageView.body
+    { body =
+        Html.div
+            []
+            [ Html.header []
+                [ Html.nav []
+                    [ Route.link Route.Index
+                        [ Attr.id "logo" ]
+                        [ Html.img
+                            [ Attr.src "https://lukaszadam.com/assets/downloads/javascript_illustration.svg" ]
+                            []
+                        , Html.div []
+                            [ Html.text "Blog"
+                            , Html.sup [] [ Html.text "2" ]
+                            ]
+                        ]
+                    , Html.div
+                        []
+                        [ Route.link
+                            Route.Lifecycle
+                            []
+                            [ Html.text "Lifecycle" ]
+                        ]
+                    ]
+                ]
+            , Html.main_ [] pageView.body
+            ]
     , title = pageView.title
     }

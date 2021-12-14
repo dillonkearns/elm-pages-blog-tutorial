@@ -6,8 +6,9 @@
     "build": "elm-pages build"
   },
   "devDependencies": {
+    "@dillonkearns/elm-graphql": "4.2.2",
     "elm-optimize-level-2": "0.2.3",
-    "elm-pages": "2.1.10",
+    "elm-pages": "file:../../github.com/dillonkearns/elm-pages",
     "elm-review": "^2.5.5",
     "elm-tooling": "^1.4.0"
   }

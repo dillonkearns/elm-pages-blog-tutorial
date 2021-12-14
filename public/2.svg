@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-817 -330.5 2062.724 814" width="2062.724" height="814">
+  <defs>
+    <font-face font-family="JetBrains Mono" font-size="16" panose-1="2 11 5 9 2 1 2 5 0 4" units-per-em="1000" underline-position="-130" underline-thickness="50" slope="0" x-height="550" cap-height="730" ascent="970.0012" descent="-270.00427" font-weight="400">
+      <font-face-src>
+        <font-face-name name="JetBrainsMono-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="24" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="24" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="JetBrains Mono" font-size="24" panose-1="2 11 8 9 3 1 2 5 0 4" units-per-em="1000" underline-position="-107" underline-thickness="73" slope="0" x-height="550" cap-height="730" ascent="970.0012" descent="-270.00427" font-weight="700">
+      <font-face-src>
+        <font-face-name name="JetBrainsMono-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="JetBrains Mono" font-size="16" panose-1="0 0 5 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-129.98962" underline-thickness="49.98779" slope="0" x-height="550" cap-height="730" ascent="970.0012" descent="-270.00427" font-weight="700">
+      <font-face-src>
+        <font-face-name name="JetBrainsMono-Variable_Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#8efa00">
+      <g>
+        <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2021-12-09 18:55:07 +0000</metadata>
+  <g id="elm_http_lifecycle" stroke-dasharray="none" stroke="none" fill="none" stroke-opacity="1" fill-opacity="1">
+    <title>elm/http lifecycle</title>
+    <g id="elm_http_lifecycle_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="81" y="166" width="181" height="87" fill="white"/>
+        <rect x="81" y="166" width="181" height="87" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(86 199.5)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="400" fill="black" x="32.7" y="16">Elm Runtime</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="346" y="396" width="181" height="87" fill="white"/>
+        <rect x="346" y="396" width="181" height="87" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(351 429.5)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="400" fill="black" x="66.3" y="16">view</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <rect x="-184" y="396" width="181" height="87" fill="white"/>
+        <rect x="-184" y="396" width="181" height="87" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-179 429.5)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="400" fill="black" x="66.3" y="16">init</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <rect x="81" y="396" width="181" height="87" fill="white"/>
+        <rect x="81" y="396" width="181" height="87" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(86 429.5)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="400" fill="black" x="56.7" y="16">update</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <text transform="translate(-598.696 273)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="24" font-weight="700" fill="black" x="71.844" y="23">Main.elm</tspan>
+          <tspan font-family="Helvetica Neue" font-size="24" font-weight="400" fill="black" x="42632564e-20" y="51.69617">(User-defined program)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <text transform="translate(-539.5 167)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="24" font-weight="700" fill="black" x="48316906e-20" y="23">Elm Runtime</tspan>
+        </text>
+      </g>
+      <g id="Line_23">
+        <line x1="-816" y1="224" x2="1244.7241" y2="230.12386" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_42">
+        <text transform="translate(-581.5 -325.5)" fill="#00fa00">
+          <tspan font-family="JetBrains Mono" font-size="24" font-weight="700" fill="#00fa00" x="36948222e-20" y="23">elm/http lifecycle</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="elm_http_lifecycle_Layer_2">
+      <title>Layer 2</title>
+      <g id="Graphic_11">
+        <rect x="-268" y="-230" width="276" height="114" fill="white"/>
+        <rect x="-268" y="-230" width="276" height="114" stroke="#76d6ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-263 -225)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="700" fill="black" x="0" y="16">GitHub API</tspan>
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="400" fill="black" x="0" y="36">{</tspan>
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="400" fill="black" x="0" y="56">  “stargazers”: 123</tspan>
+          <tspan font-family="JetBrains Mono" font-size="16" font-weight="400" fill="black" x="0" y="76">}</tspan>
+        </text>
+      </g>
+      <g id="Line_14">
+        <path d="M 81 183.57433 C 23.736675 162.39516 -47.76592 126.38652 -93 69 C -137.7108 12.277335 -145.75213 -51.36963 -143.26235 -99.15022" marker-end="url(#FilledArrow_Marker)" stroke="#8efa00" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_18">
+        <line x1="-43.380435" y1="396" x2="109.37246" y2="263.42202" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_31">
+        <text transform="translate(-101.304 15)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="42632564e-21" y="15">HTTP Request</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <text transform="translate(-87.5 303.83793)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">(Model, Cmd)</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="elm_http_lifecycle_Layer_3">
+      <title>Layer 3</title>
+      <g id="Line_20">
+        <line x1="141.62" y1="254" x2="161.96455" y2="380.30234" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_35">
+        <path d="M 8 -146 C 8 -146 128.85501 -136.39116 179 -48 C 218.57242 21.754782 199.42353 114.68776 189.5897 150.77487" marker-end="url(#FilledArrow_Marker)" stroke="#8efa00" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_36">
+        <text transform="translate(201.88412 -28.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1563194e-19" y="15">HTTP Response</tspan>
+        </text>
+      </g>
+      <g id="Graphic_38">
+        <text transform="translate(105.5 311.92017)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Msg</tspan>
+        </text>
+      </g>
+      <g id="Line_6">
+        <line x1="221.61957" y1="253" x2="374.37246" y2="385.578" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_39">
+        <line x1="168" y1="396" x2="214.56629" y2="267.9427" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_40">
+        <text transform="translate(191.5 340)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">(Model, Cmd)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_41">
+        <text transform="translate(314.5 311.92017)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="20250468e-20" y="15">Model</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
